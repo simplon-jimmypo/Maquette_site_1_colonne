@@ -1,0 +1,111 @@
+body{
+  margin: 0px;
+  }
+
+  #fond{
+  height:920px;
+  width: 1080px;
+}
+
+
+#navbar{
+  height:60px ;
+  width:100% ;
+  background-color: #222;
+  /*margin-top: 0px;*/
+}
+
+.logo{
+  font-family: arial;
+  font-size:  20px;
+  font-weight:normal;
+  color: white;
+  list-style: none;
+  padding-top: 18px;
+  margin-left: 70px;
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+  color:grey;
+
+}
+
+.acceuil{
+  font-size: 15px;
+  font-family: Arial;
+  color: grey;
+  list-style: none;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.portfolio{
+  font-size: 15px;
+  font-family: arial;
+  color: grey;
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.contact{
+  font-size: 15px;
+  font-family: arial;
+  color: grey;
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#bloc, h1 {
+font-family: arial;
+font-weight: lighter;
+font-size: 30px;
+color: #333;
+margin-left: 60px;
+margin-top: 60px
+}
+
+.bloc1, span{
+  font-family: arial;
+  font-size: 20px;
+  color: #777
+}
+
+.ligne{
+  height: 1px;
+  width:auto;
+  margin-left:60px;
+  background-color: #EEE;
+  margin-top: -10px;
+}
+
+.image{
+  background-image: url("http://www.metronews.fr/_internal/gxml!0/2qijkhn0ctpwx8acoz5fxkpvtmr4nbh$szlar77er8vv2kabofzyznniw43lmuy/danemark-assiette.jpeg");
+  background-size: cover; /*cover permet d'adapter la taille de mon image à ma div en gardant les memes proportions!!*/
+  height:300px;
+  width: 600px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.texte{
+  height: auto;
+  width: auto;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.text, h1{
+  font-family: arial;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.text, p{
+  font-family: arial;
+  font-size: 12px;
+  color: grey;
+}
